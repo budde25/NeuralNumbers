@@ -8,7 +8,7 @@ public class Digit {
 
         number = Integer.parseInt(numbers[0]);
         for (int i = 1; i < numbers.length; i++) {
-            values[i - 1] = simplify(Integer.parseInt(numbers[i]));
+            values[i - 1] = Integer.parseInt(numbers[i]);
         }
 
     }

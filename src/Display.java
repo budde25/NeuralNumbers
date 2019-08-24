@@ -18,7 +18,7 @@ public class Display extends JFrame {
         int scale = 20;
 
         for (int i = 0; i < 784; i++) {
-            int number = 255 - turnBlack(digit.getValues(i));
+            int number = 255 - digit.getValues(i);
             g.setColor(new Color(number, number, number));
             g.fillRect( (i % 28) * scale, i == 0 ? 0 : (i / 28) * scale, scale, scale);
         }
