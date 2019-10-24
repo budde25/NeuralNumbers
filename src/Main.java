@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Please wait while data is parsed");
         digits = new Digits(true, true);
-        neuralNetwork = new NeuralNetwork(784, new int[] {40, 40} , 10, 0.1);
+        neuralNetwork = new NeuralNetwork(784, new int[] {30, 20} , 10, 0.1);
 
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
@@ -42,6 +42,9 @@ public class Main {
                         break;
                     case "5":
                         neuralNetwork = NeuralNetwork.loadNetwork(commands[1]);
+                        break;
+                    case "6":
+                        Draw.main("Draw");
                         break;
                     case "9":
                         running = false;
@@ -160,5 +163,32 @@ public class Main {
             }
         }
         return output;
+    }
+
+    public static void in(Digit digit){
+
+
+        ArrayList<Double> input = formatInput(digit.getValues());
+
+        ArrayList<Double> guesses = neuralNetwork.feedforward(input).toArray();
+        double highestGuess = 0;
+        int guessIndex = -1;
+
+        System.out.println("Results: ");
+        for (int i = 0; i < guesses.size(); i++){
+            double guess = guesses.get(i);
+
+            if (guess > highestGuess) {
+                highestGuess = guess;
+                guessIndex = i;
+            }
+
+            guess = guess * 100;
+            System.out.print(i + ": ");
+            System.out.printf("%.2f", guess);
+            System.out.println("%");
+        }
+
+        System.out.println("Answer: Unknown Guess: " + guessIndex);
     }
 }

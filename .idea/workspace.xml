@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36994583-02aa-4d5c-92cc-2e930bf5c151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Draw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuralHelper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/NeuralHelper.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuralNumbers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NeuralNumbers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NeuralNumbers/Digit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNumbers/Digit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNumbers/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNumbers/Display.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeuralNumbers/META-INF/NeuralNumbers.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NeuralNumbers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNumbers/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Digit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Digit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testingData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testingData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trainingData.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +37,13 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,6 +58,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\budde25\Documents\NeuralNumbers\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,6 +118,7 @@
       <workItem from="1566616070072" duration="54000" />
       <workItem from="1566619355268" duration="693000" />
       <workItem from="1566687165963" duration="302000" />
+      <workItem from="1571876793099" duration="8800000" />
     </task>
     <servers />
   </component>
