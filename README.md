@@ -7,7 +7,7 @@ reach detection rates of 92% with provided test set. It's also able to detect cu
 
 ## Getting Started
 
-Clone the repository and run the program or download the provided jar and run it in the same directory as the .csb files.  
+Clone the repository and run the program or download the provided jar and run it in the same directory as the .csv files.  
 [NeuralNumbers.jar](https://github.com/budde25/NeuralNumbers/releases/latest)  
 
 ## Usage
