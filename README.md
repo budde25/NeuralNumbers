@@ -1,6 +1,6 @@
 # Neural Numbers
 
-An application of a Neural Network trained to recognize handrawn digits between 0 and 9. It supports both both the testing data
+An application of a Neural Network trained to recognize hand drawn digits between 0 and 9. It supports both both the testing data
 provided or the ability to hand draw your own digits. Trained using 60,000 hand drawn digits this application has been able to
 reach detection rates of 92% with provided test set. It's also able to detect custom drawn digits with and accuracy of about
 60%.
