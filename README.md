@@ -10,7 +10,7 @@ reach detection rates of 92% with provided test set. It's also able to detect cu
 Clone the repository and run the program or download the provided jar and run it in the same directory as the .csv files.  
 [NeuralNumbers.jar](https://github.com/budde25/NeuralNumbers/releases/latest)  
 
-## Usage
+### Usage
 
 Run the program and enter one of the folling commands when prompted:  
 `1` to train the network with training data.  
